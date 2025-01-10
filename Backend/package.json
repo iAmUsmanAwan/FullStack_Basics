@@ -5,11 +5,19 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "build": "npm install"
   },
-  "author": "",
+  "author": "iAmUsmanAwan",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
